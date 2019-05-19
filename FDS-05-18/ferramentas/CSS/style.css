@@ -3,11 +3,13 @@ body{
 
 }
 .navbar {
-    width: 100%;
+    padding: 14px 16px;
     background-color: #420c35;
     overflow: auto;
     display: flex;
-    justify-content: flex-end;   
+    justify-content: flex-end;
+    height: 45px;
+
   }
   
   /* Navbar links */
@@ -30,15 +32,7 @@ body{
   .active {
     background-color: purple;
   }
-  
-  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
-  @media screen and (max-width: 500px) {
-    .navbar a {
-      float: none;
-      display: block;
-    }
 
-  }
 .pao{
     width: 35px;
     height: 3px;
@@ -51,3 +45,26 @@ body{
     margin-top: 3px;
 }
   
+header{
+  padding:200px 16px;
+  background-color: gray;
+}
+
+.apresentacao{
+  padding:200px 16px;
+  background-color: aquamarine;
+
+}
+
+.login{
+  padding:200px 16px;
+
+}
+
+footer {  
+  background-color:black;
+  height: 80px;
+}
+footer h3 {
+  color: white;
+}
