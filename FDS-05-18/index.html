@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./ferramentas/CSS/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./ferramentas/JS/script.js" defer></script> 
     <title></title>
 </head>
 <body>
@@ -15,7 +15,7 @@
             
             <a class="active" href="./index.html"><i class="home"></i> Home</a> 
             <a href="#"><i class="search"></i> Search</a> 
-            <a href="#"><i class="contact"></i> Contact</a> 
+            <a href="#"><i class="contact"></i> Languages</a> 
             <a href="./prestador.html"><i class="prestador"></i> Prestador de serviço</a>
             <a href="#"><i class="login"></i>Entre ou Cadastre-se</a>
             
@@ -30,22 +30,48 @@
     <!--HEADER-->
 
     <header>
-        <h1>aqui é o header </h1>
-        <p>Espaçoo para colocar barra de opções de exames</p>
+        <div class="background"></div>
+        
+        <p>Clique aqui para encontrar os melhores profissionais proximos de você:</p>
+        <div>
+        <input type="search" name="" id="CampoDePesquisa">
+        <input id="Enviar" type="submit" value="Encontrar">
+        </div>
     </header>
 
     <!--MAIN-->
 
     <main>
-        <div class="apresentacao">
-            <p>Aqui escrevemos sobre o projeto</p>
+
+        <div class="card">
+            <div class="medico">
+                <a href="#"> 
+                <img class="foto"  src="./ferramentas/IMAGE/medica1.jpeg" alt="">
+                </a>
+                <div class="container">
+                    <p>medica fulana</p>
+                </div>
+            </div>
+            <div class="medico">
+                    <a href="#"> 
+                    <img class="foto"  src="./ferramentas/IMAGE/medica2.jpeg" alt="">
+                    </a>
+                    <div class="container">
+                        <p>medico fulano</p>
+                    </div>
+            </div>
+            <div class="medico">
+                    <a href="#"> 
+                    <img class="foto"  src="./ferramentas/IMAGE/medica3.jpeg" alt="">
+                    </a>
+                    <div class="container">
+                        <p>medico fulano</p>
+                    </div>
+            </div>
+
         </div>
         <div class="login">
             <p>aqui colocamos em espaço para pessoa/ong se inscrever</p>
-        </div>
-            <p></p>
-        <div >
-
         </div>
 
     </main>
@@ -53,8 +79,6 @@
     <!--FOOTER-->
     <footer>
         <h3>aqui é o footer</h3>
-    </footer>
-        
-            
+    </footer>           
 </body>
 </html>
